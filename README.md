@@ -13,7 +13,7 @@ To install requirements:
 Python Version: 3.7.9
 
 ```
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
 ## 2. Data Preparation
