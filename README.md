@@ -22,7 +22,7 @@ You need to download the related datasets  and put in the folder which namely da
 
 ## 3. Pre-trained Models
 
-You can download our trained models from [Baidu Drive](https://pan.baidu.com/s/10j21PCyhi9cbJqRvH7KDHw) (2qia).
+You can download our trained models from [Baidu Drive].
 
 ## 4. Training
 
