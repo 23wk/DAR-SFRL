@@ -59,10 +59,10 @@ python main.py --config_file configs/remote_DAR_linear_eval.yaml
 ```
 ### 5.2 FR
 
-To evaluate on RAF-DB, run:
+To evaluate on CPLFW, run:
 
 ```
-python main.py --config_file configs/remote_DAR_linear_eval.yaml
+python main_id.py --config_file configs/remote_DAR_linear_eval_id_cplfw.yaml
 
 ```
 ### 5.3 AU
@@ -70,7 +70,7 @@ python main.py --config_file configs/remote_DAR_linear_eval.yaml
 To evaluate on RAF-DB, run:
 
 ```
-python main.py --config_file configs/remote_DAR_linear_eval.yaml
+python main_au.py --config_file configs/remote_DAR_linear_eval_au_bp4d.yaml
 
 ```
 
