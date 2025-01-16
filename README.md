@@ -1,4 +1,6 @@
 # DAR-SFRL: Degradation-adaptive Attack-Robust Self-Supervised Facial Representation Learning
+![b](https://github.com/user-attachments/assets/f843c1d2-efc7-48a3-85e6-bb865abd0146)
+
 
 ## 0. Contents
 1. Requirements
@@ -44,10 +46,25 @@ To evaluate on RAF-DB, run:
 python main.py --config_file configs/remote_DAR_linear_eval.yaml
 
 ```
+### 5.2 FR
 
+To evaluate on RAF-DB, run:
+
+```
+python main.py --config_file configs/remote_DAR_linear_eval.yaml
+
+```
+### 5.3 AU
+
+To evaluate on RAF-DB, run:
+
+```
+python main.py --config_file configs/remote_DAR_linear_eval.yaml
+
+```
 
 ## TODO 
 
 - [ ] Refactor the codes of AU detection and face recognition.
 
-**IF YOU HAVE ANY PROBLEM, PLEASE CONTACT wangwenbin@cug.edu.cn OR COMMIT ISSUES**
+**IF YOU HAVE ANY PROBLEM, PLEASE CONTACT WK2023@cug.edu.cn OR COMMIT ISSUES**
