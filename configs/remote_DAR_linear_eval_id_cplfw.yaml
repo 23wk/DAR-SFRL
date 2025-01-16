@@ -1,0 +1,32 @@
+batch_size: 100
+experiment_name: test_cplfw
+root: /data/yuanyuan/dataset/cplfw/CPLFW_cropped
+train: /data/yuanyuan/dataset/cplfw/new_train_9_lfw.txt
+test: /data/yuanyuan/dataset/cplfw/new_test_9_lfw.txt 
+gpu_ids: '0'
+dataset: 'CPLFW' 
+theta: 0.5
+eval: True
+eval_mode: 'exp' 
+seed: 3456
+eval_epochs: 30
+log_path: ./logs
+model_name: exppose # 小写
+dataset_name: identitydb # 小写
+linear_dim: 49152
+out_dim: 1024
+linear_lr: 0.0001
+linear_eval: True
+img_size: 128  # train 64 eval 100
+load_model: ~
+checkpoint_dir: ./checkpoints
+T: 0.07
+S: 3
+C: 16
+neg_alpha: 0.001
+pose_alpha: 0.001
+continue_train: False
+lr: 0.01
+wd: 0.00001
+num_threads: 4
+warm_up: -1

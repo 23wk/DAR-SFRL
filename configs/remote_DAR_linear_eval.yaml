@@ -1,0 +1,40 @@
+batch_size: 256
+experiment_name: test
+root: /data/yuanyuan/dataset/RAFDB/Image/aligned/aligned
+train: /data/yuanyuan/dataset/RAFDB/EmoLabel/train_list.txt
+val: /data/yuanyuan/dataset/RAFDB/EmoLabel/test_list.txt
+test: /data/yuanyuan/dataset/RAFDB/EmoLabel/test_list.txt
+gpu_ids: '0'
+dataset: 'RAFDB' 
+start_epochs: 0
+neg_alpha: 1.6
+pose_alpha: 0.1
+wd: 1.0e-3
+T: 0.07
+S: 3
+C: 16
+num_threads: 3
+save_epoch: 100
+dim: 512
+linear_dim: 12288
+checkpoint_dir: ./checkpoints
+epochs: 1001
+continue_train: False
+eval: True
+eval_mode: 'exp' 
+eval_epochs: 300
+seed: 3456
+log_path: ./logs
+model_name: exppose # exppose_1
+dataset_name: lineardb # 小写
+img_size: 64  
+lr: 1.0e-4
+print_img: 50
+print_loss : 20
+load_model: ~
+save_img_dir: ./save_img
+save_img: False
+print_network: False
+classes_num: 7
+linear_lr: 1.0e-2
+warm_up: -1
